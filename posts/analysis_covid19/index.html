@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Sunil Godara">
+    <meta name="description" content="Sunil Godara&#39;s personal website">
+    <meta name="keywords" content="blog,data scientist,personal, machine learning">
+
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/images/corona_rate_to_2x.png"/>
+
+<meta name="twitter:title" content="COVID-19. How India fares Vs other countries?"/>
+<meta name="twitter:description" content="The testing rate in India is far lower than the other countries of analysis, so please take this with a spoon of salt."/>
+
+    <meta property="og:title" content="COVID-19. How India fares Vs other countries?" />
+<meta property="og:description" content="The testing rate in India is far lower than the other countries of analysis, so please take this with a spoon of salt." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/analysis_covid19/" />
+<meta property="og:image" content="/images/corona_rate_to_2x.png" />
+<meta property="og:image" content="/images/corona_infection_rate.png" />
+<meta property="og:image" content="/images/corona_infections_and_recoveries.png" />
+<meta property="article:published_time" content="2019-04-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-04-05T00:00:00+00:00" />
+
+
+
+
+    
+      <base href="/posts/analysis_covid19/">
+    
+    <title>
+  COVID-19. How India fares Vs other countries? · sunil godara
+</title>
+
+    
+      <link rel="canonical" href="/posts/analysis_covid19/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.69.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-dark">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      sunil godara
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/contact/">Contact me</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">COVID-19. How India fares Vs other countries?</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2019-04-05T00:00:00Z'>
+                April 5, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              1-minute read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
+
+      <div>
+        
+        <p>This is a half baked attempt at analyzing the COVID-19 situation. Annotations and making sense of the graphs to follow soon.</p>
+<h2 id="rate-of-new-infections">Rate of new infections</h2>
+<figure>
+    <img src="/images/corona_infection_rate.png"
+         alt="New infections, India still in early stages of the spread"/> <figcaption>
+            <p>New infections, India still in early stages of the spread</p>
+        </figcaption>
+</figure>
+
+<ul>
+<li>Germany and Italy appear to be on a similar trajectory with respect to spread. (Deaths and recoveries might look quite different)</li>
+<li>China&rsquo;s control of COVID-19 spread is surreal.</li>
+<li>The spread in India appears to way slower than other countries. It could be attributed to either or both of the low testing rate and its nation-wide lockdown of three weeks.</li>
+</ul>
+<h2 id="rate-to-2x">Rate to 2X</h2>
+<figure>
+    <img src="/images/corona_rate_to_2x.png"
+         alt="Rate of doubling"/> <figcaption>
+            <p>Rate of doubling</p>
+        </figcaption>
+</figure>
+
+<ul>
+<li>Germany and Italy again on a similar trajectory.</li>
+<li>Last date, from where China&rsquo;s cases doubled is close to 10th of February.</li>
+<li>US is not slowing down at the same rate as European countries. Not surprising as it is a big country and initial spread was only limited to a few states.</li>
+</ul>
+<h2 id="recoveries">Recoveries</h2>
+<figure>
+    <img src="/images/corona_infections_and_recoveries.png"
+         alt="Rate of doubling"/> <figcaption>
+            <p>Rate of doubling</p>
+        </figcaption>
+</figure>
+
+<ul>
+<li>Germany&rsquo;s recovery rate was slower early on, but slightly better than that of Italy now.</li>
+</ul>
+<h2 id="todos">ToDo&rsquo;s</h2>
+<p>&hellip;</p>
+
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+  
+    
+    
+    
+  
+</section>
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+        ©
+        
+          2019 -
+        
+        2020
+         Sunil Godara 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    <script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//analytics.example.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'ABCDE');
+fathom('trackPageview');
+</script>
+
+
+  </body>
+
+</html>
