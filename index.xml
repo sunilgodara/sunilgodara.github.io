@@ -48,7 +48,7 @@ pwd </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>I am a Machine Learning practitioner who loves solving problem using data and telling stories about them. I prefer to build solutions that generalise and yet are as simple as possible.
+      <description>I am a Machine Learning practitioner. I love solving problems using data and telling stories about them. I prefer to build ML solutions that generalise and are yet simple.
 My toolkit:
  Programming Languages: R, Python, Processing Deep learning and GPU computing: Keras, TensorFlow Cloud: AWS EC2, AWS S3, Amazon SageMaker Visualization: Grammar of Graphics, ggplot, matplotlib  Besides work, I love mountains, forests and FIFA, and football &amp;ndash; in no particular order.</description>
     </item>
