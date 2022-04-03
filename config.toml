@@ -1,0 +1,4 @@
+baseURL = 'http://sunilgodara.com/'
+languageCode = 'en-us'
+title = 'Sunil Godara'
+theme = "coder"

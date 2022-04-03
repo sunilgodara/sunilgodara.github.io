@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://sunilgodara.com/posts/</loc>
+    <lastmod>2022-04-03T17:31:24+02:00</lastmod>
+  </url><url>
+    <loc>http://sunilgodara.com/posts/placeholder/</loc>
+    <lastmod>2022-04-03T17:31:24+02:00</lastmod>
+  </url><url>
+    <loc>http://sunilgodara.com/</loc>
+    <lastmod>2022-04-03T17:31:24+02:00</lastmod>
+  </url><url>
+    <loc>http://sunilgodara.com/categories/</loc>
+  </url><url>
+    <loc>http://sunilgodara.com/tags/</loc>
+  </url>
+</urlset>
