@@ -2,17 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://sunilgodara.com/posts/</loc>
-    <lastmod>2022-04-03T17:31:24+02:00</lastmod>
+    <loc>https://www.sunilgodara.com/about/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://sunilgodara.com/posts/placeholder/</loc>
-    <lastmod>2022-04-03T17:31:24+02:00</lastmod>
+    <loc>https://www.sunilgodara.com/authors/</loc>
+    <lastmod>2023-01-05T01:15:29+01:00</lastmod>
   </url><url>
-    <loc>http://sunilgodara.com/</loc>
-    <lastmod>2022-04-03T17:31:24+02:00</lastmod>
+    <loc>https://www.sunilgodara.com/authors/hugo-authors/</loc>
+    <lastmod>2023-01-05T01:15:29+01:00</lastmod>
   </url><url>
-    <loc>http://sunilgodara.com/categories/</loc>
+    <loc>https://www.sunilgodara.com/</loc>
+    <lastmod>2023-01-05T01:15:29+01:00</lastmod>
   </url><url>
-    <loc>http://sunilgodara.com/tags/</loc>
+    <loc>https://www.sunilgodara.com/categories/</loc>
+    <lastmod>2023-01-04T23:21:18+01:00</lastmod>
+  </url><url>
+    <loc>https://www.sunilgodara.com/categoria/temas/</loc>
+    <lastmod>2023-01-04T23:21:18+01:00</lastmod>
+  </url><url>
+    <loc>https://www.sunilgodara.com/categoria/sintaxe/</loc>
+    <lastmod>2023-01-04T23:21:06+01:00</lastmod>
+  </url><url>
+    <loc>https://www.sunilgodara.com/tags/shortcodes/</loc>
+    <lastmod>2023-01-04T11:51:36+01:00</lastmod>
+  </url><url>
+    <loc>https://www.sunilgodara.com/tags/</loc>
+    <lastmod>2023-01-04T11:51:36+01:00</lastmod>
+  </url><url>
+    <loc>https://www.sunilgodara.com/contact/</loc>
+  </url><url>
+    <loc>https://www.sunilgodara.com/projects/</loc>
+  </url><url>
+    <loc>https://www.sunilgodara.com/series/</loc>
   </url>
 </urlset>
