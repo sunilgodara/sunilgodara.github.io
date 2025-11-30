@@ -2,4 +2,17 @@
 title: "About"
 ---
 
-Hello and welcome! My name is Sunil Kumar, and I am an engineer and data scientist with over a decade of experience. What started as a curiosity in the applications of machine learning (ML) on sensor streams during my undergraduate degree quickly turned into a passion for solving complex problems with data. I have had the privilege of working in multiple industries such as consumer products, manufacturing, web hosting, mobility, and e-commerce, leveraging ML to address real-world challenges. As I continue to explore the latest developments in ML and AI, I look forward to sharing my insights and observations on this blog.
+I’m an Applied AI and ML practitioner focused on profit and risk use cases.
+
+For ~12 years, I’ve been shipping models at places like Sixt, Wayfair and Publicis Sapient's clients. I don’t just build individual ML models <> I build systems that change prices, promises, and decisions in real-time.
+
+My philosophy is simple:
+1. Start with a clear problem statement.
+2. Don't force deep learning where a regression (or a rule) will do.
+3. Ensure the model behaves sensibly when the data gets noisy.
+
+Selected Work:
+* Revenue & Fleet: Dynamic pricing and utilization engines for mobility/rental sectors.
+* Operations: Delivery date prediction that reacts to live supply chain constraints and special events.
+* Risk: AI-driven customer screening for a large international bank.
+* GenAI: Retrieval-based assistants to automate support and policy navigation.
