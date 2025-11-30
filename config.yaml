@@ -1,66 +1,74 @@
 baseURL: https://www.sunilgodara.com
-title: Sunil Godara
-theme: hugo-coder
-languageCode: en
-defaultContentLanguage: en
-paginate: 20
-enableEmoji: yes
-markup:
-  highlight:
-    style: github-dark
-params:
-  author: Sunil K. Godara
-  avatarURL: images/profile-photo.jpg
-  colorScheme: auto
-  commit: https://github.com/luizdepra/hugo-coder/tree/
-  customCSS: []
-  customJS: []
-  customRemoteJS: []
-  customSCSS: []
-  dateFormat: January 2, 2006
-  description: Sunil K Godara's personal website
-  hideColorSchemeToggle: no
-  info:
-    - Data Science
-    - Applied ML
-    - ML Ops
-  keywords: blog,ai,ml,personal
-  maxSeeAlsoItems: 5
-  rtl: no
-  since: 2023
-  social:
-    - icon: fa fa-2x fa-github
-      name: Github
-      url: https://github.com/sunilgodara/
-      weight: 1
-    - icon: fa fa-2x fa-twitter
-      name: Twitter
-      url: https://twitter.com/KumarSGodara/
-      weight: 2
-    - icon: fa fa-2x fa-linkedin
-      name: LinkedIn
-      url: https://www.linkedin.com/in/sunildata/
-      weight: 3
+title: "Sunil Kumar"
+languageCode: "en-us"
+theme: "hugo-PaperMod"
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+canonifyURLs: true
+
+minify:
+  disableXML: true
+
 taxonomies:
-  author: authors
   category: categories
-  series: series
   tag: tags
-languages:
-  en:
-    languageName: ':uk:'
-    menu:
-      main:
-        - name: About
-          url: about/
-          weight: 1
-        - name: Blog
-          url: posts/
-          weight: 2
-        - name: Projects
-          url: projects/
-          weight: 3
-        - name: Contact me
-          url: contact/
-          weight: 5
-          
+
+params:
+  env: production
+  description: "Applied ML / AI, consulting, and writing"
+  author: "Sunil Kumar"
+
+  defaultTheme: auto # auto, dark, light
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  # Home page: profile mode
+  profileMode:
+    enabled: true
+    title: "Sunil Kumar"
+    subtitle: "Applied ML / AI, consulting, and writing"
+    imageUrl: "images/profile-photo.jpg"   # put a headshot at static/images/avatar.jpg
+    imageTitle: "Sunil"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: "Blog"
+        url: "/posts/"
+      - name: "Projects"
+        url: "/projects/"
+      - name: "Résumé"
+        url: "/resume/"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/sunilgodara"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/sunildata/"
+    - name: twitter
+      url: "https://x.com/KumarSGodara/"
+
+  ShowRssButtonInSectionTermList: true
+
+menu:
+  main:
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: resume
+      name: Résumé
+      url: /resume/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40

@@ -128,3 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .Rproj.user
+
+
+public/
+resources/
+.hugo_build.lock
