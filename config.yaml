@@ -2,7 +2,8 @@ baseURL: https://www.sunilgodara.com
 title: "Sunil Kumar"
 languageCode: "en-us"
 theme: "hugo-PaperMod"
-paginate: 10
+pagination:
+  pagerSize: 10
 
 enableRobotsTXT: true
 canonifyURLs: true
@@ -16,7 +17,7 @@ taxonomies:
 
 params:
   env: production
-  description: "Applied Machine Learning and Applied AI, consulting, and writing"
+  description: "Applied ML / AI, consulting, and writing"
   author: "Sunil Kumar"
 
   defaultTheme: auto # auto, dark, light
