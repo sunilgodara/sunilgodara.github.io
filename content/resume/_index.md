@@ -6,7 +6,7 @@ aliases: ["/resume/"]
 
 ## Summary
 
-> **AI leader** with **12+ years** of experience in financial services, e-commerce and mobility.  
+> AI leader with 12+ years of experience in financial services, e-commerce and mobility.  
 > I build and lead AI teams, and ship applied ML and LLM products that solve concrete business problems in pricing, supply chain, customer screening and retention.
 
 ---

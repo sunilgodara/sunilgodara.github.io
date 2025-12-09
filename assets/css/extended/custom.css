@@ -1,0 +1,193 @@
+/* ===========================
+   Global typography
+   =========================== */
+
+/* Base font: Times New Roman everywhere */
+html,
+body {
+  font-family: "Times New Roman", "Times", serif !important;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Make sure all common text elements inherit */
+body,
+.main,
+article,
+.post-content,
+.page,
+.single,
+.list,
+.section,
+p,
+li,
+dt,
+dd,
+blockquote {
+  font-family: "Times New Roman", "Times", serif;
+}
+
+/* Headings use the same font, slightly tighter tracking */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.entry-header h1,
+.entry-header h2 {
+  font-family: "Times New Roman", "Times", serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* Keep code/textareas monospace so code stays readable */
+code,
+kbd,
+pre,
+samp,
+textarea {
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-size: 0.95em;
+}
+
+/* ===========================
+   Layout: narrow reading column
+   =========================== */
+
+/* Main content width on posts and pages */
+.post-content,
+.single .post-content,
+.page .post-content,
+.list .article,
+.article .entry-content {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Slightly more relaxed text */
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+/* ===========================
+   Article list (blog index)
+   =========================== */
+
+/* Flatten the "card" look */
+.article {
+  box-shadow: none !important;
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin-bottom: 2.5rem;
+}
+
+/* Title spacing in lists */
+.article .entry-header {
+  margin-bottom: 0.25rem;
+}
+
+/* Hide list footer clutter (tags, etc.) */
+.article .entry-footer {
+  display: none;
+}
+
+/* ===========================
+   Links
+   =========================== */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Make post titles clearly clickable */
+.post-title a,
+.article .entry-title a {
+  text-decoration: none;
+}
+
+.post-title a:hover,
+.article .entry-title a:hover {
+  text-decoration: underline;
+}
+
+/* ===========================
+   Navigation & header
+   =========================== */
+
+/* Nav uses Times New Roman too */
+header,
+.site-header,
+.nav,
+.navbar,
+.menu,
+.menu li,
+.menu a,
+.logo a {
+  font-family: "Times New Roman", "Times", serif;
+}
+
+/* Keep nav compact */
+.menu a {
+  font-size: 0.95rem;
+}
+
+/* ===========================
+   Misc readability tweaks
+   =========================== */
+
+/* Lists */
+.post-content ul,
+.post-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Blockquotes */
+.post-content blockquote {
+  font-style: italic;
+  border-left: 3px solid rgba(0, 0, 0, 0.15);
+  padding-left: 0.9rem;
+  margin-left: 0;
+}
+
+/* Images: keep them within the text column */
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* Tables */
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.post-content th,
+.post-content td {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0.75rem;
+}
+
+/* ===========================
+   Dark mode safeguard
+   =========================== */
+
+/* If PaperMod uses .dark on <body>, keep font consistent */
+body.dark,
+body.dark .main,
+body.dark article,
+body.dark .post-content {
+  font-family: "Times New Roman", "Times", serif;
+}
